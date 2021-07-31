@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloud-management</artifactId>
+        <groupId>com.itrjp.cloud</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+<!--        <relativePath/>-->
+    </parent>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.itrjp.cloud.service</groupId>
+    <artifactId>service</artifactId>
+
+    <modules>
+        <module>ali</module>
+        <module>amazon</module>
+    </modules>
+</project>

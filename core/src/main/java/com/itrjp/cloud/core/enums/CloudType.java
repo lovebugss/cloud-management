@@ -16,5 +16,9 @@ public enum CloudType {
     /**
      * Huawei
      */
-    Huawei;
+    HUAWEI,
+    /**
+     * 腾讯云
+     */
+    TENCENT;
 }

@@ -19,8 +19,8 @@ public class BaseParam {
     @JsonTypeInfo(use = JsonTypeInfo.Id.CUSTOM, property = "type", include = JsonTypeInfo.As.PROPERTY)
     @JsonTypeIdResolver(value = CertificateResolver.class)
     public Certificate certificate;
-    private String accessKeyId;
-    private String accessKeySecret;
+//    private String accessKeyId;
+//    private String accessKeySecret;
 
 
 }

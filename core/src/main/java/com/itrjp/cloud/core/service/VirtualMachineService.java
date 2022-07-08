@@ -4,6 +4,8 @@ import com.itrjp.cloud.model.param.vm.VirtualMachineParam;
 import com.itrjp.cloud.model.vo.vm.VirtualMachineVO;
 
 /**
+ * 虚拟机 server
+ *
  * @author : renjp
  * @date : 2021-07-31 17:39
  **/

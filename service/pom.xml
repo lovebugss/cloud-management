@@ -17,5 +17,6 @@
     <modules>
         <module>ali</module>
         <module>amazon</module>
+        <module>huawei</module>
     </modules>
 </project>

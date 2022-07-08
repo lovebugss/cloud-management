@@ -19,6 +19,8 @@ import software.amazon.awssdk.services.ec2.model.StartInstancesRequest;
 import software.amazon.awssdk.services.ec2.model.StartInstancesResponse;
 
 /**
+ * 亚马逊 EC2 实现
+ *
  * @author : renjp
  * @date : 2021-07-31 17:43
  **/

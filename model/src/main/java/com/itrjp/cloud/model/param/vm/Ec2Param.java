@@ -1,16 +1,19 @@
 package com.itrjp.cloud.model.param.vm;
 
-import lombok.AllArgsConstructor;
+
+import io.swagger.annotations.ApiModel;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 /**
  * @author : renjp
- * @date : 2021-07-31 18:10
+ * @date : 2021-07-31 17:32
  **/
 @EqualsAndHashCode(callSuper = true)
 @Data
 @NoArgsConstructor
-public class EcsParam extends VirtualMachineParam {
+@ApiModel("亚马逊虚拟机参数")
+public class Ec2Param extends VirtualMachineParam {
+
 }
